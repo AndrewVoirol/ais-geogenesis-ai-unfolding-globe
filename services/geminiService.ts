@@ -63,12 +63,12 @@ export const sendMessageToGemini = async (
         
         // Extract Grounding Metadata (Source Links)
         const groundingChunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
-        const groundingUrls = groundingChunks
+        const groundingUrls: { title: string; uri: string; sourceType?: 'web' | 'map' }[] = groundingChunks
             .filter((c: any) => c.web?.uri || c.maps?.uri)
             .map((c: any) => ({
-                title: c.web?.title || c.maps?.title || "Source",
-                uri: c.web?.uri || c.maps?.uri,
-                sourceType: c.maps ? 'map' : 'web'
+                title: (c.web?.title || c.maps?.title || "Source") as string,
+                uri: (c.web?.uri || c.maps?.uri) as string,
+                sourceType: (c.maps ? 'map' : 'web') as 'web' | 'map'
             }));
 
         // Extract JSON for Map Markers

@@ -1,0 +1,54 @@
+{
+  "project": {
+    "name": "GeoGenesis",
+    "slug": "ais-geogenesis-ai-unfolding-globe",
+    "description": "An interactive 3D globe powered by AI. Ask about any place on Earth — the globe spins to it, drops markers, and the AI tells you what's there. Click any country to explore it. Unfold the globe into a flat map with a smooth morphing animation.",
+    "category": "data-visualization",
+    "tags": [
+      "@google/genai",
+      "topojson-client",
+      "d3"
+    ],
+    "status": "shipped",
+    "aistudioUrl": ""
+  },
+  "tech": {
+    "framework": "vite",
+    "frameworkVersion": "^6.2.0",
+    "react": "^19.2.0",
+    "styling": "tailwind",
+    "stylingVersion": "^3.4.17",
+    "three": null,
+    "usesGeminiApi": true,
+    "geminiApiRole": "none",
+    "keyDependencies": [
+      "@google/genai",
+      "topojson-client",
+      "d3",
+      "@vitejs/plugin-react",
+      "autoprefixer"
+    ],
+    "hasBackend": false
+  },
+  "quality": {
+    "hasReadme": true,
+    "readmeIsCustom": true,
+    "hasDemoGif": true,
+    "hasScreenshots": true,
+    "screenshotCount": 2,
+    "hasFavicon": false,
+    "hasCustomPackageName": true,
+    "hasScaffoldCruft": false,
+    "buildVerified": false,
+    "lastVerifiedDate": null
+  },
+  "repo": {
+    "github": "https://github.com/AndrewVoirol/ais-geogenesis-ai-unfolding-globe.git",
+    "defaultBranch": "main"
+  },
+  "_meta": {
+    "generatedAt": "2026-08-07T02:03:57.645Z",
+    "generatedBy": "ais-fleet/generate-manifests",
+    "needsReview": []
+  }
+}
