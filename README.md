@@ -2,6 +2,8 @@
 
 # GeoGenesis: Mathematical Cartography & Unfolding Projection Laboratory
 
+> **Part of the [Cartography Featured Project](https://andrewvoirol.com/work/cartography) on [andrewvoirol.com](https://andrewvoirol.com) • [Live Interactive Lab](https://andrewvoirol.com/lab/geogenesis)**
+
 An interactive mathematical cartography laboratory and real-time projection showcase. GeoGenesis enables continuous, frame-by-frame scrubbing between a 3D Orthographic sphere and planar map topologies (Equirectangular, Winkel Tripel, Mollweide) driven by Pythagorean limb departure mathematics ($\sqrt{R^2 - y^2}$), interactive Great-Circle Haversine geodesic routing with dynamic projection morphing, sub-millisecond 24-bit RGB color-picking hit detection, customizable CRT phosphor matrix optics, and modular standalone exportability.
 
 ## Quick Start
